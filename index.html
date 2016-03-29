@@ -2,6 +2,8 @@
 <html>
     <head>
         <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+        <script src='https://apis.google.com/js/platform.js'></script>
+        <meta name="google-signin-client_id" content="875299489419-hjuipbrf1ar4fnmn6niq5bbvpo44c6kh.apps.googleusercontent.com">
         <style>
             #faites > p {
                 text-decoration: line-through;
@@ -17,6 +19,10 @@
         <div id="faites">
         </div>
         <script>
+
+        // Manip TP N - Utilisation de Python
+        function startApp() {
+
             // cette version n'utilise pas innerHTML.
             // ce qui la rend plus efficace et plus "propre" dans son écriture.
             // par contre, elle est plus verbeuse.
@@ -77,6 +83,8 @@
                     afaire.appendChild(el);
                 }
             });
+        }
+
         </script>
     </body>
 </html>
